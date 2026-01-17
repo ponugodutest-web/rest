@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>YouTube API v3 App</title>
+  <meta charset="UTF-8">
+  <title>YouTube API v3 Publishing App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="YouTube Data API v3 application">
+  <meta name="description" content="YouTube Data API v3 app for uploading and managing videos">
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background:#f9f9f9; }
+    body { font-family: Arial, sans-serif; margin:40px; line-height:1.7; }
     h1 { color:#cc0000; }
+    h2 { margin-top:30px; }
     a { color:#065fd4; text-decoration:none; }
-    footer { margin-top:40px; font-size:14px; color:#555; }
+    nav a { margin-right:15px; }
   </style>
 </head>
 <body>
 
-<h1>YouTube API v3 Application</h1>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</nav>
+
+<h1>YouTube API v3 Publishing Application</h1>
 
 <p>
-This project uses the <strong>YouTube Data API v3</strong> to manage and publish
-content programmatically on YouTube.
+This application uses the <strong>YouTube Data API v3</strong> to allow users to
+securely upload, publish, and manage videos on their own YouTube channels.
 </p>
 
-<h2>Features</h2>
+<h2>Purpose of the App</h2>
+<p>
+The main purpose of this app is to automate and simplify YouTube video publishing.
+It enables authenticated users to upload videos, update metadata, and manage
+their content programmatically.
+</p>
+
+<h2>How the App Works</h2>
 <ul>
-  <li>OAuth 2.0 authentication</li>
-  <li>Video upload & publishing</li>
-  <li>Channel and video management</li>
+  <li>User signs in using Google OAuth 2.0</li>
+  <li>User explicitly grants YouTube permissions</li>
+  <li>The app receives a secure access token</li>
+  <li>The app performs YouTube actions on behalf of the user</li>
 </ul>
 
-<h2>Important Links</h2>
+<h2>Data Access & Permissions</h2>
+<p>
+The app only accesses YouTube data required for video publishing and management.
+It does not read private user data unrelated to YouTube.
+</p>
+
+<h2>Compliance</h2>
+<p>
+This application complies with:
+</p>
 <ul>
-  <li><a href="privacy.html">Privacy Policy</a></li>
-  <li><a href="terms.html">Terms of Service</a></li>
+  <li>YouTube API Services Terms of Service</li>
+  <li>Google OAuth 2.0 policies</li>
 </ul>
 
 <footer>
   <p>
-    This site is not affiliated with or endorsed by YouTube or Google.
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms of Service</a>
   </p>
 </footer>
 

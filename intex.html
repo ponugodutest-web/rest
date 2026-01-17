@@ -8,17 +8,15 @@
   <style>
     body { font-family: Arial, sans-serif; margin:40px; line-height:1.7; }
     h1 { color:#cc0000; }
-    h2 { margin-top:30px; }
-    a { color:#065fd4; text-decoration:none; }
-    nav a { margin-right:15px; }
+    nav a { margin-right:15px; color:#065fd4; text-decoration:none; }
   </style>
 </head>
 <body>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="privacy.html">Privacy Policy</a>
-  <a href="terms.html">Terms of Service</a>
+  <a href="/REPO_NAME_HERE/">Home</a>
+  <a href="/REPO_NAME_HERE/privacy.html">Privacy Policy</a>
+  <a href="/REPO_NAME_HERE/terms.html">Terms of Service</a>
 </nav>
 
 <h1>YouTube API v3 Publishing Application</h1>
@@ -30,38 +28,27 @@ securely upload, publish, and manage videos on their own YouTube channels.
 
 <h2>Purpose of the App</h2>
 <p>
-The main purpose of this app is to automate and simplify YouTube video publishing.
-It enables authenticated users to upload videos, update metadata, and manage
-their content programmatically.
+The purpose of this app is to automate YouTube video publishing using Google OAuth
+2.0 authentication. The app only works after a user explicitly grants permission.
 </p>
 
-<h2>How the App Works</h2>
+<h2>How It Works</h2>
 <ul>
   <li>User signs in using Google OAuth 2.0</li>
-  <li>User explicitly grants YouTube permissions</li>
-  <li>The app receives a secure access token</li>
-  <li>The app performs YouTube actions on behalf of the user</li>
+  <li>User grants YouTube permissions</li>
+  <li>The app uploads or manages videos on the user's behalf</li>
 </ul>
 
-<h2>Data Access & Permissions</h2>
+<h2>Data Access</h2>
 <p>
-The app only accesses YouTube data required for video publishing and management.
-It does not read private user data unrelated to YouTube.
+The app only accesses YouTube data required for uploading and managing videos.
+No unrelated personal data is accessed.
 </p>
-
-<h2>Compliance</h2>
-<p>
-This application complies with:
-</p>
-<ul>
-  <li>YouTube API Services Terms of Service</li>
-  <li>Google OAuth 2.0 policies</li>
-</ul>
 
 <footer>
   <p>
-    <a href="privacy.html">Privacy Policy</a> |
-    <a href="terms.html">Terms of Service</a>
+    <a href="/REPO_NAME_HERE/privacy.html">Privacy Policy</a> |
+    <a href="/REPO_NAME_HERE/terms.html">Terms of Service</a>
   </p>
 </footer>
 
